@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FlashcardApp</string>
+    <string name="score_text">Your Score: %1$d / %2$d</string>
+    <string name="great_job">Great Job!</string>
+    <string name="keep_practising">Keep practising!</string>
+    <string name="review_question">%1$d. %2$s\n</string>
+    <string name="review_correct">Correct Answer: %1$b\n</string>
+    <string name="review_user">Your Answer: %1$b\n</string>
+</resources>
