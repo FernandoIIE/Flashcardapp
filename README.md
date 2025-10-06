@@ -1,45 +1,60 @@
-# 📱 Flashcard
+📱 Flashcard App
 
-A simple Android application built with **Kotlin**. Allows you to create and study flashcards with a clean and intuitive interface.
+A personal study prototype developed in Kotlin with Android Studio. Allows you to create, edit, and review flashcards quickly and in an organized way.
 
----
+🔹 Features
 
-## 🔹 Features
+Create, edit, and delete flashcards
 
-- Create, edit, and delete flashcards  
-- Easily navigate between flashcards  
-- Clean and organized layout  
-- Fully built with **Kotlin** in Android Studio  
+Easy navigation between flashcards
 
----
+Clean and organized layout
 
-## 🛠 Technologies Used
+Fully built with Kotlin in Android Studio
 
-- **Language:** Kotlin  
-- **IDE:** Android Studio  
-- **Design:** XML layouts  
-- **Version Control:** Git/GitHub  
+🛠 Technologies Used
 
----
+Language: Kotlin
 
-## 🖼 Screenshots
+IDE: Android Studio
 
-> Create a folder named `screenshots` and add your app images there to showcase the app.
+Design: XML Layouts
 
-**Main Screen (Flashcards List):**  
-![Main Screen](./screenshots/main_screen.png)  
+Version Control: Git/GitHub
 
-**Create Flashcard:**  
-![Create Flashcard](./screenshots/create_flashcard.png)  
+🖼 Screenshots
 
-**Study Flashcards:**  
-![Study Flashcards](./screenshots/study_flashcards.png)  
+Main Screen (Flashcards List):
+<img width="431" height="882" alt="Screenshot 2025-10-06 173858" src="https://github.com/user-attachments/assets/6abdf43c-f403-4097-892e-8b5ef11e6023" />
 
----
 
-## 🚀 How to Run the Project
+Question Screen:
+<img width="458" height="907" alt="QuestionScreen" src="https://github.com/user-attachments/assets/ac325ec7-99b2-4c41-a73d-adfe57d80e0c" />
 
-1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/Flashcard.git
+Score Screen:
+<img width="442" height="886" alt="ScoreScreen" src="https://github.com/user-attachments/assets/30d0ffa0-ec06-4c9e-8f90-b4e7941eaec5" />
+
+
+📝 Personal Development / Problems & Solutions
+
+Problem: The welcome TextView was not showing
+Solution: Replaced LinearLayout with ConstraintLayout and adjusted app:layout_constraintTop_toTopOf="parent" with proper margins
+
+Problem: Android Studio temporary files appeared in commits
+Solution: Created .gitignore with /.idea/, *.iml, /build and removed temporary files before committing
+
+CI/CD: Set up a workflow in .github/workflows/android.yml that runs ./gradlew build on Ubuntu with each push to main. This ensures the project compiles automatically and notifies me if something breaks
+
+🚀 How to Run Locally
+git clone https://github.com/<your-username>/Flashcard.git
+
+
+Open the project in Android Studio
+
+Run on an emulator or a physical device
+
+💡 Final Notes
+
+This project is a personal prototype. If you want to test or contribute, open an issue in the repository.
+Most of the development was done by me, using Android Studio, Git/GitHub, and GitHub Actions for CI.
