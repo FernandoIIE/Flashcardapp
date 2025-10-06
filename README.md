@@ -36,6 +36,12 @@ Score Screen:
 <img width="442" height="886" alt="ScoreScreen" src="https://github.com/user-attachments/assets/30d0ffa0-ec06-4c9e-8f90-b4e7941eaec5" />
 
 
+
+
+
+
+
+
 📝 Personal Development / Problems & Solutions
 
 Problem: The welcome TextView was not showing
