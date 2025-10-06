@@ -64,3 +64,6 @@ Run on an emulator or a physical device
 
 This project is a personal prototype. If you want to test or contribute, open an issue in the repository.
 Most of the development was done by me, using Android Studio, Git/GitHub, and GitHub Actions for CI.
+
+//Link for the Youtube  video//
+https://youtu.be/9obcCS3j1Ho
