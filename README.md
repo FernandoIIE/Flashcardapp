@@ -53,9 +53,9 @@ Solution: Created .gitignore with /.idea/, *.iml, /build and removed temporary f
 CI/CD: Set up a workflow in .github/workflows/android.yml that runs ./gradlew build on Ubuntu with each push to main. This ensures the project compiles automatically and notifies me if something breaks
 
 🚀 How to Run Locally
-git clone https://github.com/<your-username>/Flashcard.git
 
 
+https://github.com/FernandoIIE/Flashcardapp.git
 Open the project in Android Studio
 
 Run on an emulator or a physical device
